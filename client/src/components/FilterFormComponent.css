@@ -1,0 +1,70 @@
+.label-field {
+    color: rgb(3 150 203);
+    font-size: 15px;
+}
+
+.label-field span {
+    color: rgb(94 192 223);
+    font-size: 12px;
+}
+
+.input-field {
+    width: 80%;
+    margin-right: 10px;
+}
+
+Col button {
+    width: 100%;
+}
+
+.input-section {
+    margin-bottom: 10px;
+}
+
+
+.form-section,
+.query-string {
+    width: 700px;
+    padding: 15px;
+    margin: 20px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, rgb(59, 170, 63), rgb(13, 103, 187));
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+
+form .form-section div {
+    text-align: center;
+}
+
+.query-string {
+    /* text-align: center; */
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 10px;
+}
+
+.image-container div {
+    text-align: center;
+    font-size: 10px;
+    border: 1px solid #f4e5e5;
+    margin: 3px;
+}
+
+.space-img {
+    width: 100px;
+    height: 100px;
+}
+
+.q-string {
+    word-wrap: break-word;
+    color: rgb(7, 79, 168);
+}
